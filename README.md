@@ -16,5 +16,4 @@ Generates access_tokens for Google API, also generates refresh_token which can b
 
 * You can use this token on server side w/o any more user interaction
 
-* Access_token will expire in 1 hour (as opposed to 5 minutes for `online` tokens), which is still not acceptable because we want to true permanent/long lived token.
-As long as we have `refresh_token` we can refresh `access_token` with just 1 line of code: https://github.com/google/google-api-nodejs-client/#manually-refreshing-access-token
+* Access_token will expire in 1 hour (as opposed to 5 minutes for `online` tokens), which is still not acceptable because we want true permanent/long lived token. We can refresh `access_token` with just 1 line of code(As long as we have `refresh_token`): https://github.com/google/google-api-nodejs-client/#manually-refreshing-access-token
